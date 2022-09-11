@@ -797,7 +797,7 @@ h3{
         justify-content: center;
         background-color: #F2FAFF;
         padding-inline: 0px;
-        padding-block: 5px;
+        padding-bottom: 80px;
         /* border: 1px solid blue; */
         /* background-color: aqua; */
     }
@@ -991,7 +991,7 @@ h3{
         border-top-left-radius: 70px;
     }
     footer{
-        height: 130vh;
+        height: 120vh;
         background-color: rgb(3, 72, 115);
         width: 100%;
     }
