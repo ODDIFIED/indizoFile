@@ -1962,7 +1962,7 @@ h3{
         margin: auto;
     }
     .container-one{
-        height: 80vh;
+        height: 100vh;
         flex-direction: column;
         /* align-items: center; */
         justify-content: center;
@@ -2508,7 +2508,7 @@ h3{
         border-top-left-radius: 70px;
     }
     footer{
-        height: 120vh;
+        height: 180vh;
         background-color: rgb(3, 72, 115);
         width: 100%;
     }
@@ -2617,7 +2617,7 @@ h3{
         margin-left: 25px;
     }
 }
-@media screen and  (max-width: 370px){
+@media screen and  (max-width: 376px){
     .logotask img{
         height: 4vh ;
         width: 25vw;
@@ -2756,9 +2756,9 @@ h3{
         border: 1px solid rgb(3, 72, 115);
         border-radius: 100%;
         width: 340%;
-        height: 6vh;
+        height: 4.5vh;
         text-align: center;
-        padding-block: 5px;
+        padding-block: 6px;
         padding-inline: 0px;
         color: white;
         background-color: rgb(3, 72, 115);
@@ -2830,7 +2830,7 @@ h3{
         border-top-left-radius: 70px;
     }
     footer{
-        height: 170vh;
+        height: 180vh;
         background-color: rgb(3, 72, 115);
         width: 100%;
     }
