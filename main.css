@@ -2108,7 +2108,8 @@ h3{
         display: flex;
         justify-content: space-evenly;
         color: rgb(3, 72, 115);
-        margin-left: 5px;
+        margin-left: 15px;
+
     }
     
     .numpac {
@@ -2126,7 +2127,7 @@ h3{
         margin-top: 10px;
     }
     .text{
-        margin-left: 10px;
+        margin-left: 30px;
     }
     .text b{
         font-family:  sans-serif;
@@ -2136,7 +2137,7 @@ h3{
     }
     .text p{
     
-        width: 110%;
+        width: 80%;
         font-size: 0.7em ;
         padding: 0px;
         margin-top: 0px;
