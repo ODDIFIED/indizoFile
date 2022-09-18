@@ -1631,28 +1631,36 @@ h3{
         width: 100%;
         margin: auto;
     }
+    .logotask img{
+        height: 2.5vh;
+        margin-top: 2px;
+        margin-left: -50px;
+        background: none;
+    }
+    main{
+        width: 100%;
+    }
+    section{
+        width: 100%;
+        margin: auto;
+    }
     .container-one{
-        height: 120vh;
+        height: 100vh;
         flex-direction: column;
-        align-items: center;
+        /* align-items: center; */
         justify-content: center;
         background-color: #F2FAFF;
         padding-inline: 0px;
-        padding-block: 10px;
+        padding-bottom: 80px;
         /* border: 1px solid blue; */
         /* background-color: aqua; */
     }
-    h1 {
-        font-size: 1.8em;
-        color: orange;
-        text-transform: capitalize;
-        font-family: 'Poppins', sans-serif;
-      }
     .content-box h6{
-        font-size: 1.8em;
-        width: 90%;
+        font-size: 1.5em;
+        width: 70%;
+        margin: auto;
         text-align: center;
-        margin-top: 0px;
+        margin-top: 120px;
         font-family: 'Poppins', sans-serif;
         ;
     }
@@ -1661,8 +1669,9 @@ h3{
     }
     .btn-first{
         display: flex;
-        justify-content: center;
-        gap: 10px;
+        margin: auto;
+        /* justify-content: center; */
+        gap: 20px;
     }
     .first-btn a{
         padding-inline: 20px;
@@ -1670,7 +1679,7 @@ h3{
         font-size: 1em;
         font-weight: 600;
         color: white;
-        margin-left: 20px;
+        margin-left: -20px;
         text-decoration: none;
         text-transform: capitalize;
     }
@@ -1682,22 +1691,27 @@ h3{
         padding-block: 9px;
         font-size: 1em;
         margin-top: -20px;
+        margin-left: -20px;
         font-weight: 700;
         text-transform: capitalize;
         background-color: rgb(250, 230, 192);
     }
-    .images-sect{
+    .container-one > .box-img{
         margin-top: 50px;
+        margin-left: 30px;
     }
     .box-img{
-        height: 55vh;
+        margin: auto;
+        align-items: center;
+        height: 30vh;
         width: 100%;
+        margin-left: 20px;
         border: 2px solid orange;
         border-bottom-right-radius: 70px;
         border-top-left-radius: 70px;
     }
     .box-img img{
-        height: 55vh;
+        height: 30vh;
         position: relative;
         top: -20px;
         left: -20px;
@@ -1706,112 +1720,112 @@ h3{
         border-top-left-radius: 70px;
     }
     .container-two{
-        /* border: 2px solid red; */
         background-color: aquamarine;
-        width: 100;
     }
     h4{
         text-align: center;
         padding-top: 20px;
-        font-size: 2rem;
+        font-size: 1.9rem;
         font-family: 'Poppins', sans-serif;
         ;
-        font-weight: 900;
+        font-weight: 400;
     }
     .number-one{
-        margin-top: 40px;
-        display: list-item;
-        grid-template-columns: none;
-        list-style: none;
-        gap: 0px;
-        margin-left: 5px;
-        padding-bottom: 0px;
+        margin-top: 20px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        grid-template-columns: repeat(3 , 1fr);
+        gap: 20px;
+        padding-inline: 10px;
     }
     .img-holder{
-        width: 100%;
-        max-width: 300px;
-        margin: auto;
-        height: 100vh;
-     }
-     .img-pack{
-         display: flex;
-         margin-bottom: 20px;
-     
-     }
-     
-     .img-pack img{
-         height: 15vh;
-         margin-right: 0px;
-     }
-     .number-two{
-         /* border: 1px solid red; */
-         display: list-item;
-         grid-template-columns: none;
-         list-style: none;
-         gap: 0px;
-         margin-top: -20px;
-         padding-bottom: 0px;
-     }
-     .img-packtwo {
-         display: flex;
-         gap: 22px;
-     }
-     .img-packtwo img{
-         height: 15vh;
-         width: 10vw;
-         position: relative;
-         left: 10px;
-     }
-     .content-pac{
-         display: flex;
-         gap: 20px;
-         margin-top: 0px;
-         padding-block: 10px;
-         color: rgb(3, 72, 115);
-     
-     }
-     
-     .numpac i{
-         position: relative;
-         top: 0px;
-         left: 0px;
-         font-size: 1.5em;
-         /* color: white; */
-     }   
-     text b{
+       margin:30px auto;
+       height: 80vh;
+    }
+    .img-pack{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 5px;
+        margin-bottom: 15px;
+    }
+    
+    .img-pack img{
+        height: 12vh;
+        margin-right: 0px;
+    }
+    
+    
+    .content-pac{
+        display: flex;
+        justify-content: space-evenly;
+        color: rgb(3, 72, 115);
+        margin-left: 5px;
+    }
+    
+    .numpac {
+       border: 1px solid rgb(3, 72, 115);
+       border-radius: 100%;
+       width: 350%;
+       height: 4.3vh;
+       text-align: center;
+       padding-block: 8px;
+       padding-inline: 0px;
+       color: white;
+       background-color: rgb(3, 72, 115);
+    }
+    .numpac h6{
+        margin-top: 10px;
+    }
+    .text{
+        margin-left: 10px;
+    }
+    .text b{
         font-family:  sans-serif;
         font-weight: 900;
-        font-size: 0.5em;
+        font-size: 1em;
+        width: 100%;
     }
     .text p{
     
-        width: 90%;
+        width: 110%;
         font-size: 0.7em ;
         padding: 0px;
-        margin-top: 5px;
+        margin-top: 0px;
         font-family: 'Poppins', sans-serif;
-        font-weight: 900;
+        font-weight: 0px;
     }
     .container-three{
-        height: 150vh;
+        height: 110vh;
         flex-direction: column;
-        /* flex-wrap: wrap; */
-        padding-block: 10px;
-        padding-bottom: 0px;
+        padding-block: 5px;
         align-items: center;
         justify-content: center;
-        /* padding: 50px; */
         background-color: #F2FAFF;
-        /* border: 1px solid blue; */
-        /* background-color: aqua; */
     }
     .container-three >.content-box{
         text-align: center;
         font-family: 'Poppins', sans-serif;
         font-size: 1em;
         font-weight: 800;
-        width: 80%;
+        width: 100%;
         line-height: 40px;
+    }
+    .container-three .content-box p{
+        font-size: 1em;
+        padding-inline: 30px;
+        text-align: center;
+        width: 100%;
+        font-weight: 400;
+    }
+    .container-three >.content-box h2{
+        font-size: 1.8em;
+        font-weight: 500;
+        text-align: center;
+    }
+    .container-three > .images-sect2{
+        margin-top: 70px;
+        align-self: center;
     }
     .container-three >.content-box b{
         font-size: 1.8em;
@@ -1822,14 +1836,14 @@ h3{
 
     }
     .box-imgthree{
-        height: 50vh;
+        height: 30vh;
         width: 100%;
         border: 2px solid orange;
         border-bottom-right-radius: 70px;
         border-top-left-radius: 70px;
     }
     .box-imgthree img{
-        height: 50vh;
+        height: 30vh;
         position: relative;
         top: 20px;
         left: 20px;
@@ -1838,14 +1852,14 @@ h3{
         border-top-left-radius: 70px;
     }
     footer{
-        height: 150vh;
+        height: 100vh;
         background-color: rgb(3, 72, 115);
         width: 100%;
     }
     .foot_con{
         /* border: 1px solid blue; */
         padding-inline: 20px;
-        flex-direction: column-reverse;
+        flex-direction: column;
         justify-content: center;
         /* margin:  auto; */
         /* padding-block: 10px; */
@@ -1855,9 +1869,15 @@ h3{
         background-color: white;
     }
     h3{
+        margin-top: 10px;
         text-align: center;
-        font-size: 1.5em;
+        font-size: 1em;
         font-weight: 700;
+    }
+    footer h4{
+        font-size: 1.5em;
+        font-weight: 400;
+        text-align: center;
     }
     .left-side{
         width:  100%;
@@ -1872,10 +1892,13 @@ h3{
         text-align: center;
         font-weight: 500;
         font-size: 0.7em;
+        margin-inline: 100px;
+        width: 50%;
+        /* word-wrap: break-word; */
+    }
+    .leftside-btn{
+        width: 100%;
         margin: auto;
-        width: 95%;
-        word-wrap: break-word;
-        margin-left: 5px;
     }
     .leftside-btn button{
         text-align: center;
@@ -1885,46 +1908,54 @@ h3{
         padding-inline: 15px;
         padding-block: 10px;
         font-size: 1em;
-        width: 30%;
+        width: 50%;
+        color: rgb(3, 72, 115);
         margin-top: -20px;
         font-weight: 700;
+        margin-inline: 90px;
         background-color: orange;
         font-size: x-small;
     }
     .right-side{
         color: white;
-        text-align: center;
-        font-family: 'Poppins', sans-serif;
+        width: 100%;
+        text-align: right;
         margin-top: 20px;
-    }
-    .right-side b{
-        justify-self: center;
-        font-size: 0.8em;
-        font-weight: 900;
         font-family: 'Poppins', sans-serif;
     }
     .right-side p{
-        width: 100%;
-        margin: auto;
+        text-align: center;
         margin-left: 0px;
-        word-wrap: break-word;
-        font-weight: 500;
-        font-size: 12px;
-        /* border: 1px solid red; */
+        width: 100%;
+        line-height: 15px;
+        margin-top: 10px;
+        font-size: 0.8em;
+        font-weight: 300;
+    }
+    .right-side .sub{
+        padding-left: 70px;
+        width: 80%;
+    }
+    .right-side .sub p{
+        text-align: center;
+        font-weight: 300;
+        font-size: 0.8em;
+        line-height: 20px;
+    
     }
     .rightside-btn button{
-        justify-self: center;
-        text-align: center;
-        width: 40%;
-        margin: auto;
+        align-items: center;
+        width: 50%;
+        margin-inline: 100px;
         border: 2px solid orange;
         border-top-left-radius: 10px;
         border-bottom-right-radius: 10px;
         padding-inline: 5px;
         padding-block: 10px;
         font-size: 1em;
+        color: rgb(3, 72, 115);
         margin-top: 29px;
-        font-weight: 700;
+        font-weight: 900;
         background-color: white;
         font-size: x-small;
     }
