@@ -2122,7 +2122,7 @@ h3{
        border: 1px solid rgb(3, 72, 115);
        border-radius: 100%;
        width: 350%;
-       height: 4.3vh;
+       height: 4.5vh;
        text-align: center;
        padding-block: 8px;
        padding-inline: 0px;
@@ -2152,7 +2152,7 @@ h3{
         font-weight: 0px;
     }
     .container-three{
-        height: 110vh;
+        height: 120vh;
         flex-direction: column;
         padding-block: 5px;
         align-items: center;
@@ -2208,7 +2208,7 @@ h3{
         border-top-left-radius: 70px;
     }
     footer{
-        height: 85vh;
+        height: 105vh;
         background-color: rgb(3, 72, 115);
         width: 100%;
     }
