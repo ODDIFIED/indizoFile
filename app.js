@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded',function(event){
        if (typeof dataText[i] == 'undefined'){
           setTimeout(function() {
             StartTextAnimation(0);
-          }, 20000);
+          }, 2000);
        }
 
       if (i < dataText[i].length) {

@@ -2121,17 +2121,18 @@ h3{
     .numpac {
        border: 1px solid rgb(3, 72, 115);
        border-radius: 100%;
-       width: 350%;
-       height: 4.8vh;
-       text-align: center;
-       padding-block: 8px;
+       width: 90%;
+       height: 5vh;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       /* text-align: center; */
+       padding-block: 0px;
        padding-inline: 0px;
        color: white;
        background-color: rgb(3, 72, 115);
     }
-    .numpac h6{
-        margin-top: 10px;
-    }
+    
     .text{
         margin-left: 40px;
 
