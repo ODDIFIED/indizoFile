@@ -1519,7 +1519,6 @@ h3{
         width: 100%;
         padding-block: 30px;
         padding-inline: 0px;
-        /* max-width: 600px; */
     }
     nav label{
         display: inline;
@@ -1541,6 +1540,7 @@ h3{
         max-width: 300px;
         justify-content: flex-end;
         background: white;
+        z-index: 1;
         display: none;
     }
     
