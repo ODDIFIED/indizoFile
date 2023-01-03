@@ -459,7 +459,7 @@ h3{
     }
    
     .numpac {
-       height: 5vh;
+       height: 4vh;
        text-align: center;
     }
     .container-three{
@@ -1002,7 +1002,7 @@ h3{
        border: 1px solid rgb(3, 72, 115);
        border-radius: 100%;
        width: 350%;
-       height: 2.8vh;
+       height: 3.7vh;
        text-align: center;
        padding-block: 8px;
        padding-inline: 0px;
@@ -2121,8 +2121,7 @@ h3{
     .numpac {
        border: 1px solid rgb(3, 72, 115);
        border-radius: 100%;
-       width: 90%;
-       height: 5vh;
+       height: 4vh;
        display: flex;
        justify-content: center;
        align-items: center;
@@ -2475,10 +2474,9 @@ h3{
      .numpac {
         border: 1px solid rgb(3, 72, 115);
         border-radius: 100%;
-        width: 340%;
         height: 4.5vh;
         text-align: center;
-        padding-block: 7px;
+        padding-block: 4px;
         padding-inline: 0px;
         color: white;
         background-color: rgb(3, 72, 115);
@@ -2815,7 +2813,6 @@ h3{
      .numpac {
         border: 1px solid rgb(3, 72, 115);
         border-radius: 100%;
-        width: 340%;
         height: 4.5vh;
         text-align: center;
         padding-block: 6px;
@@ -3155,8 +3152,7 @@ h3{
      .numpac {
         border: 1px solid rgb(3, 72, 115);
         border-radius: 100%;
-        width: 340%;
-        height: 4.2vh;
+        height: 4.5vh;
         text-align: center;
         padding-block: 8px;
         padding-inline: 0px;
